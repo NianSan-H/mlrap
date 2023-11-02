@@ -1,0 +1,31 @@
+search type: bayes
+scoring: r2
+cv: 5
+save log: True
+log path: 
+epoch: 5
+random state: 42
+
+log times: 50
+init_points: 10
+n_iter: 40
+
+parameters space: 
+  n_estimators: 
+    list: False
+    type: int
+    start: 1
+    end: 1000
+    step: 
+  learning_rate: 
+    list: False
+    type: float
+    start: 0.01
+    end: 0.5
+    step: 
+  max_depth: 
+    list: False
+    type: int
+    start: 1
+    end: 50
+    step: 

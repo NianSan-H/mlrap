@@ -1,0 +1,33 @@
+# Stylesheet for shap figure.
+
+# Set color cycle: blue, green, yellow, red
+axes.prop_cycle : cycler('color', ['0C5DA5', '00B945', 'FF9500', 'FF2C00'])
+
+# Font sizes
+font.size : 8
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 3
+xtick.major.width : 0.5
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 3
+
+# legend
+legend.fancybox: False
+legend.frameon : False
+
+# Set line widths
+axes.linewidth : 0.5
+grid.linewidth : 0.5
+lines.linewidth : 1.
+
+# Set scatter size
+scatter.marker: o
+lines.markersize: 6
+scatter.edgecolors: k
+
+# LaTeX packages
+text.latex.preamble : \usepackage{amsmath}
