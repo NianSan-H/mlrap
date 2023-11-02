@@ -29,13 +29,6 @@ Usage: mlrap [OPTIONS] COMMAND [ARGS]...
 
   Machine learning regression analyse packages
 
-              ¨€¨€¨€¨[   ¨€¨€¨€¨[¨€¨€¨[     ¨€¨€¨€¨€¨€¨€¨[  ¨€¨€¨€¨€¨€¨[ ¨€¨€¨€¨€¨€¨€¨[
-              ¨€¨€¨€¨€¨[ ¨€¨€¨€¨€¨U¨€¨€¨U     ¨€¨€¨X¨T¨T¨€¨€¨[¨€¨€¨X¨T¨T¨€¨€¨[¨€¨€¨X¨T¨T¨€¨€¨[
-              ¨€¨€¨X¨€¨€¨€¨€¨X¨€¨€¨U¨€¨€¨U     ¨€¨€¨€¨€¨€¨€¨X¨a¨€¨€¨€¨€¨€¨€¨€¨U¨€¨€¨€¨€¨€¨€¨X¨a
-              ¨€¨€¨U¨^¨€¨€¨X¨a¨€¨€¨U¨€¨€¨U     ¨€¨€¨X¨T¨T¨€¨€¨[¨€¨€¨X¨T¨T¨€¨€¨U¨€¨€¨X¨T¨T¨T¨a
-              ¨€¨€¨U ¨^¨T¨a ¨€¨€¨U¨€¨€¨€¨€¨€¨€¨€¨[¨€¨€¨U  ¨€¨€¨U¨€¨€¨U  ¨€¨€¨U¨€¨€¨U
-              ¨^¨T¨a     ¨^¨T¨a¨^¨T¨T¨T¨T¨T¨T¨a¨^¨T¨a  ¨^¨T¨a¨^¨T¨a  ¨^¨T¨a¨^¨T¨a
-
 Options:
   -h, --help  Show this message and exit.
 
