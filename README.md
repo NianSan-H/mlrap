@@ -24,7 +24,25 @@ pip install --editable .
 ```
 ## Getting started
 After installation, execute the command `mlrap -h` to view the help interface.  
-<img src="https://github.com/NianSan-H/mlrap/blob/master/image/help.png" alt="fig" title="mlrap-h">
+```
+Usage: mlrap [OPTIONS] COMMAND [ARGS]...
+
+  Machine learning regression analyse packages
+
+              ¨€¨€¨€¨[   ¨€¨€¨€¨[¨€¨€¨[     ¨€¨€¨€¨€¨€¨€¨[  ¨€¨€¨€¨€¨€¨[ ¨€¨€¨€¨€¨€¨€¨[
+              ¨€¨€¨€¨€¨[ ¨€¨€¨€¨€¨U¨€¨€¨U     ¨€¨€¨X¨T¨T¨€¨€¨[¨€¨€¨X¨T¨T¨€¨€¨[¨€¨€¨X¨T¨T¨€¨€¨[
+              ¨€¨€¨X¨€¨€¨€¨€¨X¨€¨€¨U¨€¨€¨U     ¨€¨€¨€¨€¨€¨€¨X¨a¨€¨€¨€¨€¨€¨€¨€¨U¨€¨€¨€¨€¨€¨€¨X¨a
+              ¨€¨€¨U¨^¨€¨€¨X¨a¨€¨€¨U¨€¨€¨U     ¨€¨€¨X¨T¨T¨€¨€¨[¨€¨€¨X¨T¨T¨€¨€¨U¨€¨€¨X¨T¨T¨T¨a
+              ¨€¨€¨U ¨^¨T¨a ¨€¨€¨U¨€¨€¨€¨€¨€¨€¨€¨[¨€¨€¨U  ¨€¨€¨U¨€¨€¨U  ¨€¨€¨U¨€¨€¨U
+              ¨^¨T¨a     ¨^¨T¨a¨^¨T¨T¨T¨T¨T¨T¨a¨^¨T¨a  ¨^¨T¨a¨^¨T¨a  ¨^¨T¨a¨^¨T¨a
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  run     Global run base config file.
+  subrun  Run step by step.
+```
 If you have already prepared your dataset (a CSV file containing chemical formulas and target properties), simply execute the command `mlrap run train` in the directory where your dataset is located. MLRAP will automatically perform feature engineering, hyperparameter optimization, and model training for you. Process data will be output in CSV format, and five images will be generated as follows:  
 <img src="https://github.com/NianSan-H/mlrap/blob/master/image/output.png" alt="fig" title="output">
 ### Note
