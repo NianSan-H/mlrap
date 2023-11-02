@@ -19,7 +19,10 @@ pip install --editable .
 ## Getting started
 After installation, execute the command `mlrap -h` to view the help interface.  
 <img src="https://github.com/NianSan-H/mlrap/blob/master/image/help.png" alt="fig" title="mlrap-h">
-
+If you have already prepared your dataset (a CSV file containing chemical formulas and target properties), simply execute the command `mlrap run train` in the directory where your dataset is located. MLRAP will automatically perform feature engineering, hyperparameter optimization, and model training for you. Process data will be output in CSV format, and five images will be generated as follows:  
+<img src="https://github.com/NianSan-H/mlrap/blob/master/image/output.png" alt="fig" title="output">
+### Note
+During hyperparameter optimization, we employ Bayesian hyperparameter optimization, where the best hyperparameters are selected for the final model training.  
 ## Contributors
 + [Gang Tang](https://github.com/obaica)
 + [Tao Hu](https://github.com/NianSan-H)
