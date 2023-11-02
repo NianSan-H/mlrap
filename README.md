@@ -3,3 +3,11 @@ MLRAP (Machine Learning Regression Analysis Package) is a specialized software t
 <img src="https://github.com/NianSan-H/mlrap/blob/master/mlrap/example/workflow.png" alt="fig" title="workflow">  
 ## Usage
 
+
+## Installation
+
+
+## Contributors
++ [Gang Tang](https://github.com/obaica)
++ [Tao Hu](https://github.com/NianSan-H)
++ [Chunbao Feng](https://lxy.cqupt.edu.cn/info/1191/6711.htm)
