@@ -18,7 +18,7 @@ pip install --editable .
 ```
 ## Getting started
 After installation, execute the command `mlrap -h` to view the help interface.  
-<img src="https://github.com/NianSan-H/mlrap/blob/master/image/help.png" alt="fig" title="workflow">
+<img src="https://github.com/NianSan-H/mlrap/blob/master/image/help.png" alt="fig" title="mlrap-h">
 
 ## Contributors
 + [Gang Tang](https://github.com/obaica)
