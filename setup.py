@@ -8,7 +8,6 @@ if __name__ == "__main__":
         description="Machine Learning Regression Analyse Packages",
         url="https://github.com/NianSan-H/mlrap",
         author="Gang Tang, Tao Hu, Chunbao Feng",
-        license="MIT License",
         include_package_data=True,
         packages=find_packages(),
         package_data={
@@ -40,5 +39,9 @@ if __name__ == "__main__":
                 "mlrap = mlrap.command.cli:cli",
             ]
         },
+        classifiers = [
+            "Programming Language :: Python :: 3",
+            "License :: OSI Approved :: MIT License",
+        ],
         python_requires=">=3.8",
     )
