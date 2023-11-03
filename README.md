@@ -5,15 +5,14 @@
 + [Usage](#Usage)
 + [Contributors](#Contributors)
 ## Introduction
-MLRAP (Machine Learning Regression Analysis Package) is a specialized software tool designed to assist materials scientists in building regression models and establishing structure-property relationships. The software features a user-friendly command-line interface and automates the machine learning workflow in Python. It includes modules for data preprocessing, feature engineering, model evaluation, model optimization, and model interpretation, significantly reducing user workload and enhancing the efficiency of materials research and development.  
-
+MLRAP (Machine Learning Regression Analysis Package) is designed to assist materials scientists in constructing regression models and establishing structure-property relationships. This software offers a user-friendly command-line interface and automates the machine learning workflow in Python. It encompasses modules for data preprocessing, feature engineering, model evaluation, model optimization, and model interpretation. This automation significantly reduces the workload for users and enhances the efficiency of materials research and development.  
 <img src="https://github.com/NianSan-H/mlrap/blob/master/image/workflow.png" alt="fig" title="workflow">  
 
 ## Installation
 MLRAP supports Python 3.8+. It is recommended to install it within a virtual environment using virtual environment management tools.  
 First create a conda environment: Install miniconda environment from https://conda.io/miniconda.html based on your system requirements. Then, create a virtual environment:  
 ```
-conda create mlrap
+conda create -n mlrap python==3.8.0
 conda activate mlrap
 ```
 Extract the compressed archive to a directory, and then execute the following command:  
