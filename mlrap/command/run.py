@@ -18,7 +18,7 @@ def getconfig():
     """
     Prepare configuration files for global training.
     """
-    from util import copy_config
+    from mlrap.util import copy_config
     from mlrap.config.load_config import load_config_path
 
     source_file = load_config_path("run-CONFIG")
@@ -42,7 +42,7 @@ def train(config_file):
     from matplotlib import pyplot as plt
     from mlxtend.feature_selection import SequentialFeatureSelector as SFS
     from mlxtend.plotting import plot_sequential_feature_selection as plot_sfs
-    from util import descriptor, build_name
+    from mlrap.util import descriptor, build_name
     from mlrap.config.load_config import load_plot_style
     from mlrap.config.load_config import load_config_path
     from mlrap.main.optimization import model_import, optimization

@@ -18,7 +18,7 @@ def getconfig():
     """
     Obtain hyperparameter optimization configuration file.
     """
-    from util import copy_config
+    from mlrap.util import copy_config
     from mlrap.config.load_config import load_config_path
 
     source_file = load_config_path("optim-CONFIG")

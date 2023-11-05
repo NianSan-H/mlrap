@@ -26,7 +26,7 @@ def featurize(filename, fea_type, col_id, save):
     Featurize the dataset. 
     """
     import warnings
-    from util import descriptor
+    from mlrap.util import descriptor
     
     warnings.filterwarnings("ignore", category=UserWarning)
     df = load_data(filename)

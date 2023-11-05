@@ -142,7 +142,7 @@ def rename(filename, cols, manual):
     Rename the data column.
     """
     from tabulate import tabulate
-    from util import build_name
+    from mlrap.util import build_name
 
     df = load_data(filename)
     if manual:
