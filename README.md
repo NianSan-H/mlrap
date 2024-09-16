@@ -49,3 +49,5 @@ During hyperparameter optimization, we employ Bayesian hyperparameter optimizati
 + [Gang Tang](https://github.com/obaica)
 + [Tao Hu](https://github.com/NianSan-H)
 + [Chunbao Feng](https://lxy.cqupt.edu.cn/info/1191/6711.htm)
+
+This Project was supported by Beijing Institute of Technology Research Fund Program for Young Scholars (Grant No. XSQD-202222008) and Guangdong Key Laboratory of Electronic Functional Materials and Devices Open Fund (EFMD2023004M).
